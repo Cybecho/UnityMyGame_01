@@ -364,6 +364,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/SPUM/Sample/Script/PlayerManager.cs"
+"Assets/SPUM/Sample/Script/PlayerObj.cs"
+"Assets/SPUM/Script/SPUM_Manager.cs"
+"Assets/SPUM/Script/SPUM_Prefabs.cs"
+"Assets/SPUM/Script/SPUM_PreviewItem.cs"
+"Assets/SPUM/Script/SPUM_SpriteList.cs"
+"Assets/SPUM/Script/SPUM_TexutreList.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
