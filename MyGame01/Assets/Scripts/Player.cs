@@ -3,12 +3,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
+
 public class Player : MonoBehaviour
 {
     public Vector3 inputVec;
     public float speed;
+    public CinemachineVirtualCamera VCamera;
     Rigidbody rigid;
     Animator anim;
+    bool isBorder;
+
     void Awake()
     {
         rigid = GetComponent<Rigidbody>();
@@ -19,11 +24,8 @@ public class Player : MonoBehaviour
     void FixedUpdate() 
     {
         Move();
-    }
-
-    void LateUpdate()
-    {
         Turn();
+        StopToWall();
     }
 
     //플레이어 이동 구현
@@ -55,4 +57,34 @@ public class Player : MonoBehaviour
         if (inputVec.x < 0)
             this.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
     }
+
+    //캐릭터의 -z방향에서 벽을 만났을경우, Camera의 z값을 고정하고 FOV값을 조정
+    void StopToWall()
+    {
+        // -3.5는 Raycast의 거리
+        //Raycast 시각화
+        Debug.DrawRay(transform.position, transform.forward * -3.5f, Color.green);
+
+        Ray ray = new Ray(transform.position, transform.forward * -3.5f);
+        isBorder = Physics.Raycast(transform.position, transform.forward, -3.5f, LayerMask.GetMask("Wall"));
+        
+        if (Physics.Raycast(ray, out RaycastHit hit, 100f))
+        {
+            if (!isBorder)
+            {
+                Vector3 cameraPosition = VCamera.transform.position;
+                cameraPosition.z = hit.point.z;
+                VCamera.transform.position = cameraPosition;
+
+                // Calculate the distance between player and wall
+                float distance = Vector3.Distance(transform.position, hit.point);
+
+                //최소화각 최대화각 설정
+                float fov = Mathf.Lerp(25f, 45f, distance / 7f);
+                VCamera.m_Lens.FieldOfView = fov;
+            }
+        }
+    }
+
+
 }
