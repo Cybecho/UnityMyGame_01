@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     {
         Move();
         Turn();
-        StopToWall();
+        CameraFov();
     }
 
     //플레이어 이동 구현
@@ -59,14 +59,16 @@ public class Player : MonoBehaviour
     }
 
     //캐릭터의 -z방향에서 벽을 만났을경우, Camera의 z값을 고정하고 FOV값을 조정
-    void StopToWall()
+    void CameraFov()
     {
-        // -3.5는 Raycast의 거리
+        // Raycast의 거리
+        float rayDist = -15.5f;
+        
         //Raycast 시각화
-        Debug.DrawRay(transform.position, transform.forward * -3.5f, Color.green);
+        Debug.DrawRay(transform.position, transform.forward * rayDist, Color.green);
 
-        Ray ray = new Ray(transform.position, transform.forward * -3.5f);
-        isBorder = Physics.Raycast(transform.position, transform.forward, -3.5f, LayerMask.GetMask("Wall"));
+        Ray ray = new Ray(transform.position, transform.forward * rayDist);
+        isBorder = Physics.Raycast(transform.position, transform.forward, rayDist, LayerMask.GetMask("Wall"));
         
         if (Physics.Raycast(ray, out RaycastHit hit, 100f))
         {

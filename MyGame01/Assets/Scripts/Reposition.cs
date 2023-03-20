@@ -27,6 +27,8 @@ public class Reposition : MonoBehaviour
         //현재 이 스크립트가 들어있는 타일맵의 위치값
         Vector3 tilePos = transform.position; 
         
+        Debug.Log(playerPos);
+
         //x축과 z축 각각의 거리를 구하는 코드
         //Mathf 는 수학 라이브러리.. 절대값을 구하기 위해 Abs를 불러옴
         float diffX = Mathf.Abs(playerPos.x - tilePos.x);
