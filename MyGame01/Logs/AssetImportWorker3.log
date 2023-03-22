@@ -1,6 +1,6 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 65219 MB
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32639 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Unityprojects/UnityMyGame_01/MyGame01
+C:/SBU/UnityMyGame_01/MyGame01
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50141
-Successfully changed project path to: C:/Unityprojects/UnityMyGame_01/MyGame01
-C:/Unityprojects/UnityMyGame_01/MyGame01
+60276
+Successfully changed project path to: C:/SBU/UnityMyGame_01/MyGame01
+C:/SBU/UnityMyGame_01/MyGame01
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,122 +47,118 @@ C:/Unityprojects/UnityMyGame_01/MyGame01
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21060] Host "[IP] 172.29.49.17 [Port] 0 [Flags] 2 [Guid] 634562724 [EditorId] 634562724 [Version] 1048832 [Id] WindowsEditor(7,SBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1468] Host "[IP] 1.224.172.194 [Port] 0 [Flags] 2 [Guid] 1892933620 [EditorId] 1892933620 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6HQLQB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21060] Host "[IP] 172.29.49.17 [Port] 0 [Flags] 2 [Guid] 634562724 [EditorId] 634562724 [Version] 1048832 [Id] WindowsEditor(7,SBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1468] Host "[IP] 1.224.172.194 [Port] 0 [Flags] 2 [Guid] 1892933620 [EditorId] 1892933620 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6HQLQB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 101.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 170.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unityprojects/UnityMyGame_01/MyGame01/Assets
+[Subsystems] Discovering subsystems at path C:/SBU/UnityMyGame_01/MyGame01/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8032 MB
-    Driver:   31.0.15.2756
+    VRAM:     8001 MB
+    Driver:   31.0.15.3118
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012143 seconds.
+Registered in 0.008335 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
+- Completed reload, in  0.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009775 seconds.
+Registered in 0.007564 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unityprojects\UnityMyGame_01\MyGame01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unityprojects\UnityMyGame_01\MyGame01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\SBU\UnityMyGame_01\MyGame01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\SBU\UnityMyGame_01\MyGame01\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.590 seconds
+- Completed reload, in  1.608 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1592ms)
-		BeginReloadAssembly (241ms)
+	ReloadAssembly (1609ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (132ms)
-		EndReloadAssembly (1233ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (776ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (707ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5704 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 72 unused Assets / (2.4 MB). Loaded Objects now: 6141.
-Memory consumption went from 232.3 MB to 229.9 MB.
-Total: 4.183400 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.266500 ms MarkObjects: 2.989900 ms  DeleteObjects: 0.549700 ms)
+Memory consumption went from 232.4 MB to 230.0 MB.
+Total: 8.648800 ms (FindLiveObjects: 0.786700 ms CreateObjectMapping: 0.685500 ms MarkObjects: 6.008700 ms  DeleteObjects: 1.166000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -170,34 +166,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5007.728531 seconds.
-  path: Assets/Objects/VoxelDungeonSet/Obj/barstool.obj
-  artifactKey: Guid(889717a57d9357a4a83d0a0aca553c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/VoxelDungeonSet/Obj/barstool.obj using Guid(889717a57d9357a4a83d0a0aca553c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff1c9297b529e5dd949b922f1624917') in 0.344302 seconds 
+  Time since last request: 68764.063353 seconds.
+  path: Assets/Objects/VoxelDungeonSet/Obj/hammer.png
+  artifactKey: Guid(8b4aa6757a3f561418135fc61f42500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/VoxelDungeonSet/Obj/hammer.png using Guid(8b4aa6757a3f561418135fc61f42500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2da6f598fbadf6451ae96b863e45d5') in 0.130708 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.799756 seconds.
-  path: Assets/Objects/FreeSample/Textures/T_Buildings_001Diffuse- 4K.png
-  artifactKey: Guid(52f11f963fa60fc4fba44c673a6c9f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/FreeSample/Textures/T_Buildings_001Diffuse- 4K.png using Guid(52f11f963fa60fc4fba44c673a6c9f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a4d2770ad4f63a750285bf3bec8044') in 0.053268 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Objects/VoxelDungeonSet/Obj/human_base_colored.png
+  artifactKey: Guid(d61e6587216ce0d4c860df98e6e2ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/VoxelDungeonSet/Obj/human_base_colored.png using Guid(d61e6587216ce0d4c860df98e6e2ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb86ed03f01095e6e9f69bb8f6a5b2d') in 0.030686 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Objects/FreeSample/Textures/T_PropsDiffuse- 4K.png
-  artifactKey: Guid(ca54303f144165d4db41940564c0ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/FreeSample/Textures/T_PropsDiffuse- 4K.png using Guid(ca54303f144165d4db41940564c0ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d4a507f5700a929eba3d4024997041') in 0.027612 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Objects/VoxelDungeonSet/Obj/health_potion.png
+  artifactKey: Guid(40b1ecf7ddceeb24a90860824311151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/VoxelDungeonSet/Obj/health_potion.png using Guid(40b1ecf7ddceeb24a90860824311151d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ca7022724fc15b3dd1849ca27a3be9') in 0.015958 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.622658 seconds.
-  path: Assets/Objects/FreeSample/FreeContent/Pillar_03_001.fbx
-  artifactKey: Guid(34d0186733c971b458f25d3ae81acd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/FreeSample/FreeContent/Pillar_03_001.fbx using Guid(34d0186733c971b458f25d3ae81acd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03be2af874875df085f9ec55fdbab36f') in 0.073394 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Objects/VoxelDungeonSet/Obj/heart.png
+  artifactKey: Guid(4dfa104d15ba3a244ba65b6014766084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/VoxelDungeonSet/Obj/heart.png using Guid(4dfa104d15ba3a244ba65b6014766084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b279a8754c6f361696cbdff922fcaba5') in 0.012872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Objects/FreeSample/FreeContent/Plinth_Big_01_001.fbx
-  artifactKey: Guid(e5717772ab949114cb442a3150f21830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/FreeSample/FreeContent/Plinth_Big_01_001.fbx using Guid(e5717772ab949114cb442a3150f21830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bb7a24b25e6f919f3ed113f8364610') in 0.053454 seconds 
+  Time since last request: 1.248473 seconds.
+  path: Assets/Objects/VoxelDungeonSet/Obj/pillar.obj
+  artifactKey: Guid(3b3fc889160b2e647b7c254d2f599335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/VoxelDungeonSet/Obj/pillar.obj using Guid(3b3fc889160b2e647b7c254d2f599335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fcf938979140775356dd051b0fe8e0') in 0.379419 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
