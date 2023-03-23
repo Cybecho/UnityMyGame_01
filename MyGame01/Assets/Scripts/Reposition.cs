@@ -70,9 +70,22 @@ public class Reposition : MonoBehaviour
     //prefab에 등록한 프리팹을 초기화하고 랜덤으로 Active 하는 코드
     void randTile()
     {
+        int randIndex = Random.Range(0, 5);
+
         for (int index = 0; index < prefabsList.Length; index++)
             prefabs[index].SetActive(false);
         
-        prefabs[Random.Range(0, prefabsList.Length)].SetActive(true);
+        switch (randIndex)
+        {
+            case 0:
+            case 1:
+                prefabs[0].SetActive(true);
+                break;
+            case 2:
+            case 3:
+            case 4:
+                prefabs[Random.Range(0, prefabsList.Length)].SetActive(true);
+                break;
+        }
     }
 }
