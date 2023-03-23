@@ -79,9 +79,9 @@ public class Reposition : MonoBehaviour
         {
             case 0:
             case 1:
+            case 2:
                 prefabs[0].SetActive(true);
                 break;
-            case 2:
             case 3:
             case 4:
                 prefabs[Random.Range(0, prefabsList.Length)].SetActive(true);
