@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7916586243411325975}
   - component: {fileID: 4703380676541388016}
+  - component: {fileID: 2229518326030548741}
+  - component: {fileID: 6338692192023719304}
   m_Layer: 0
   m_Name: pillar (2)
   m_TagString: pillar
@@ -47,6 +49,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 6, z: 1}
   m_Center: {x: 0, y: 3.3, z: 0}
+--- !u!54 &2229518326030548741
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336343730599120070}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &6338692192023719304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336343730599120070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682c1d65cec5d1441b605c9a3c1f1fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &492521408613866096
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +200,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6535327929225520643}
-  - component: {fileID: 1972749396090939866}
+  - component: {fileID: 5759008153519795479}
+  - component: {fileID: 4143841971628099314}
+  - component: {fileID: 8772027937297077730}
   m_Layer: 0
   m_Name: pillar (1)
   m_TagString: pillar
@@ -195,7 +227,7 @@ Transform:
   m_Father: {fileID: 2481001332458531625}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1972749396090939866
+--- !u!65 &5759008153519795479
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,6 +240,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 6, z: 1}
   m_Center: {x: 0, y: 3.3, z: 0}
+--- !u!54 &4143841971628099314
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584277365849218406}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &8772027937297077730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584277365849218406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682c1d65cec5d1441b605c9a3c1f1fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1110094469401473196
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5044690630912154096}
   - component: {fileID: 6945708906570023887}
+  - component: {fileID: 5590526794895854751}
+  - component: {fileID: 4146626711460250225}
   m_Layer: 0
   m_Name: pillar thicc
   m_TagString: pillar
@@ -255,6 +317,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 6, z: 2}
   m_Center: {x: 0, y: 3, z: 0}
+--- !u!54 &5590526794895854751
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110094469401473196}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &4146626711460250225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110094469401473196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682c1d65cec5d1441b605c9a3c1f1fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2628198320151915970
 GameObject:
   m_ObjectHideFlags: 0
